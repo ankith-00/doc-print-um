@@ -41,7 +41,7 @@ components.html('<hr>', height=50)
 msg = st.empty()
 
 StoreName = st.text_input('SID', value=st.session_state.store_name, key=f"sid_{st.session_state.reset_key}")
-StoreName =  = SID.upper() 
+StoreName = SID.upper() 
 UserName = st.text_input('User name', value=st.session_state.user_name, key=f"user_{st.session_state.reset_key}")
 pdf_files = st.file_uploader('Select files', accept_multiple_files=True, type=['pdf'], key=f"files_{st.session_state.reset_key}")
 
