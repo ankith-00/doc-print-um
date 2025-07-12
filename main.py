@@ -41,7 +41,7 @@ if 'reset_key' not in st.session_state:
 
 
 # - - - - - UI Components  - - - - - - - - - - - - ->
-st.header('XEROX BUDDY')
+st.header('doc-print')
 st.write('Print Smart, Print Secure')
 components.html('<hr>', height=50)
 
@@ -95,7 +95,7 @@ if btn:
             msg.success("✅ ALL FILES UPLOADED !")
             
             # RESET  INPUT FEILDS USING SESSION STATE
-            st.session_state.store_name = ""
+            st.session_state.store_name = SID
             st.session_state.user_name = ""
             st.session_state.reset_key += 1  # Force widget recreation
 
