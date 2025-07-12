@@ -1,16 +1,23 @@
+# AUTHOR  :  Ankith Kumar                  
+# INSTA   : ( itz.ankith.sharma )          
+# PROJECT : doc-print                      
+# ( THIS IS UPLOAD MODULE FOR CUSTOMERS  )  
+
 import time
 import streamlit as st 
 from pathlib import Path
 from supabase import create_client, Client
 import streamlit.components.v1 as components
 
-# - - - - - INITIALIZE SUPEBASE CREDENTIALS - - - - ->
-URI = st.secrets['DB']['URI']
-KEY = st.secrets['DB']['KEY']
-BUCKET = st.secrets['DB']['BUCKET_NAME']
-TNAME = st.secrets['DB']['TABLE_NAME']
-COLNAME = st.secrets['DB']['STORE_ID']
+# - - - - - DB Credentials - - - - ->
+URI = st.secrets['URI']
+KEY = st.secrets['KEY']
+BUCKET = st.secrets['BUCKET_NAME']
+TNAME = st.secrets['TABLE_NAME']
+COLNAME = st.secrets['STORE_ID']
 
+
+# Get Store_ID from URL
 query_params = st.query_params
 SID = query_params.get("store_ID", " ")
 
@@ -24,33 +31,31 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "main.css"
 
 
-# - - - - - - - INITIALIZE SESSION STATE FOR INPUT FIELDS - - - - ->
+# - - - - - - - Session state initialization - - - - ->
 if 'store_name' not in st.session_state:
-    st.session_state.store_name = ""
+    st.session_state.store_name = SID
 if 'user_name' not in st.session_state:
     st.session_state.user_name = ""
 if 'reset_key' not in st.session_state:
     st.session_state.reset_key = 0
 
 
-# - - - - - UI COMPONENTS  - - - - - - - - - - - - ->
+# - - - - - UI Components  - - - - - - - - - - - - ->
 st.header('XEROX BUDDY')
 st.write('Print Smart, Print Secure')
 components.html('<hr>', height=50)
 
 msg = st.empty()
 
-StoreName = st.text_input('SID', value=st.session_state.store_name, key=f"sid_{st.session_state.reset_key}")
-StoreName = SID.upper() 
+StoreName = st.text_input('SID', value=st.session_state.store_name, key=f"sid_{st.session_state.reset_key}") = SID.upper() 
 UserName = st.text_input('User name', value=st.session_state.user_name, key=f"user_{st.session_state.reset_key}")
 pdf_files = st.file_uploader('Select files', accept_multiple_files=True, type=['pdf'], key=f"files_{st.session_state.reset_key}")
 
 btn = st.button('SEND', use_container_width=True, type="primary")
 
 
-# - - - - - WHEN BUTTON IS CLICKED - - - - - - - - ->
 if btn:
-    # - - - - - CHECK ALL INPUT FIELDS ARE FILLED - - - - - - - - - - ->
+    # - - - - - Check all input fields - - - - - - - - - - - ->
     if pdf_files and StoreName and UserName:
         msg.info(f"UPLOADING : {len(pdf_files)} FILES . . . .")
         success_count = 0
