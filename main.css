@@ -1,0 +1,49 @@
+/* AUTHOR  :  Ankith Kumar                   */
+/* INSTA   : ( itz.ankith.sharma )           */
+/* PROJECT : doc-print                       */
+/* ( THIS IS UPLOAD MODULE FOR CUSTOMERS  )  */
+
+
+/* GOOGLE FONT IMPORT LINK */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* UNIVERSAL CSS */
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* HEADING  */
+#xerox-buddy{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    margin-top: -1em;
+}
+
+/* ALERT */
+[data-testid="stAlertContainer"]{
+    padding: 2em 0.8em 1.7em 0.8em;
+}
+
+
+[data-testid="stMarkdownContainer"] p{
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
+[data-testid="stWidgetLabel"] p{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+[data-testid="stBaseButton-primary"]{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+[data-testid="stToolbarActionButton"], [data-testid="appCreatorAvatar"]{
+    visibility: hidden;
+}
+
+
+svg{
+    display: none;
+}
