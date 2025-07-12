@@ -80,7 +80,7 @@ if btn:
                 )
                 
                 if response:
-                    msg.success(f'✅ FILES UPLOADED : {filename}')
+                    msg.success(f'✅ Files uploaded : {filename}')
                     success_count += 1
                 else:
                     msg.error(f'❌ FAILED TO UPLOAD : {filename}')
@@ -92,7 +92,7 @@ if btn:
         
         # - - - - RESET ALL FIELDS - - - - - - - - - ->
         if success_count > 0:
-            msg.success("✅ ALL FILES UPLOADED !")
+            msg.success("✅ All files uploaded !")
             
             # RESET  INPUT FEILDS USING SESSION STATE
             st.session_state.store_name = SID
@@ -104,11 +104,11 @@ if btn:
             st.rerun()
 
     elif not pdf_files:
-        msg.warning("⚠️ Please select PDF files")
+        msg.warning("⚠️  Please select pdf files")
     elif not StoreName:
-        msg.warning("⚠️ Please enter valid SID")
+        msg.warning("⚠️  Invalid SID")
     elif not UserName:
-        msg.warning("⚠️ Please enter  user name")
+        msg.warning("⚠️  Please enter  user name")
 else:
     if pdf_files:
         msg.info(f"📁 {len(pdf_files)} file(s) selected. click 'send' to upload")
