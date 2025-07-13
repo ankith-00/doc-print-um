@@ -38,11 +38,9 @@ streamlit run main.py
 
 ## 🗝️ Set up streamlit secrets:
 ```bash
-URI = "your_supabase_url"
-KEY = "your_supabase_key"
-BUCKET_NAME = "your_bucket_name"
-TABLE_NAME = "your_table_name"
-STORE_ID = "your_store_id_column"
+URI = "SUPER_BASE_URI"
+KEY = "ANON_KEY"
+BUCKET_NAME = "BUCKET_NAME"
 ```
 
 <br>
@@ -60,6 +58,6 @@ doc-print-um/ <br>
 <br> 
 <br> <br>
 Application Visual : 
-<br>
+<br><br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
