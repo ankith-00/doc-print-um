@@ -1,5 +1,4 @@
 # doc-print-um
-
 📄 doc-print file upload module <br>
 - This module enables customers to upload PDF files to a specific store for printing or processing. It’s designed to streamline document submission and ensure files are routed correctly based on store selection. <br>
 - view app : https://doc-print.streamlit.app
@@ -30,7 +29,7 @@
 ```bash
 git clone https://github.com/ankith-00/doc-print-um.git
 cd doc-print-um
-pip install -r requirements.txt
+pip install streamlit supabase
 streamlit run main.py
 ```
 
@@ -55,9 +54,6 @@ doc-print-um/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    └── secrets.toml  <br>
 
 
-<br> 
-<br> <br>
-Application Screenshort  
-<br><br>
+<br><br><br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
