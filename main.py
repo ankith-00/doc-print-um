@@ -13,8 +13,6 @@ import streamlit.components.v1 as components
 URI = st.secrets['URI']
 KEY = st.secrets['KEY']
 BUCKET = st.secrets['BUCKET_NAME']
-TNAME = st.secrets['TABLE_NAME']
-COLNAME = st.secrets['STORE_ID']
 
 
 # Get Store_ID from URL
