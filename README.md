@@ -6,6 +6,7 @@
 
 
 ## ✅ Features
+- No Login or Signup Required
 - Upload multiple PDF files at once
 - Store-specific routing using embedded store ID
 - Real-time upload feedback and error handling
