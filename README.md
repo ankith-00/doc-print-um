@@ -32,8 +32,16 @@ git clone https://github.com/ankith-00/doc-print-um.git
 cd doc-print-um
 pip install -r requirements.txt
 streamlit run main.py
+```
 
-
+## Configure Streamlit Secrets.toml file 
+```bash
+URI = "your_supabase_url"
+KEY = "your_supabase_key"
+BUCKET_NAME = "your_bucket_name"
+TABLE_NAME = "your_table_name"
+STORE_ID = "your_store_id_column"
+```
 
 
 
