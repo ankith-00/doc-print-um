@@ -11,3 +11,5 @@
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
 
+
+![Logo](https://blog.streamlit.io/content/images/2021/03/favicon-transparent-1.png)
