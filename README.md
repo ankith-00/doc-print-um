@@ -26,18 +26,15 @@ view app : https://doc-print.streamlit.app
 
 
 ## 📁 File Structure 
-doc-print-um/
-├── main.py
-├── main.css
-├── README.md
-├── requirements.txt
-└── .streamlit/
-    └── secrets.toml
+doc-print-um/ <br>
+├── main.py   <br>
+├── main.css  <br>
+├── README.md <br>
+├── requirements.txt  <br>
+└── .streamlit/       <br>
+    └── secrets.toml  <br>
 
 
-* [file_in_root.ext](./file_in_root.ext)
-* [README.md](./README.md)
-* [dir3](./dir3)...
 
 <br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
