@@ -13,3 +13,4 @@
 
 
 ![Logo](https://blog.streamlit.io/content/images/2021/03/favicon-transparent-1.png)
+![Logo](https://cf.appdrag.com/dashboard-openvm-clo-b2d42c/uploads/supabase-TAiY.png)
