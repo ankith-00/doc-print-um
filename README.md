@@ -6,7 +6,7 @@ view app : https://doc-print.streamlit.app
 
 <br>
 
-## Features
+## ✅ Features
 - Upload multiple PDF files at once
 - Store-specific routing using embedded store ID
 - Organized file structure: StoreID/UserName/FileName.pdf
@@ -15,7 +15,7 @@ view app : https://doc-print.streamlit.app
 
 <br>
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 | Technology  | Purpose                |
 |-------------|------------------------|
 | Streamlit   | Frontend interface     |
@@ -33,7 +33,7 @@ doc-print-um/ <br>
 ├── README.md <br>
 ├── requirements.txt  <br>
 └── .streamlit/       <br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── secrets.toml  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    └── secrets.toml  <br>
 
 
 
