@@ -36,7 +36,7 @@ streamlit run main.py
 
 <br>
 
-## 🗝️ Set up streamlit secrets:
+## 🗝️ Set up streamlit secrets
 ```bash
 URI = "SUPER_BASE_URI"
 KEY = "ANON_KEY"
@@ -57,7 +57,7 @@ doc-print-um/ <br>
 
 <br> 
 <br> <br>
-Application Visual : 
+Application Screenshort  
 <br><br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
