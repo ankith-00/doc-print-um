@@ -34,7 +34,9 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-## Configure Streamlit Secrets.toml file 
+<br>
+
+## Set up streamlit secrets:
 ```bash
 URI = "your_supabase_url"
 KEY = "your_supabase_key"
@@ -43,7 +45,7 @@ TABLE_NAME = "your_table_name"
 STORE_ID = "your_store_id_column"
 ```
 
-
+<br>
 
 ## 📁 File Structure 
 doc-print-um/ <br>
