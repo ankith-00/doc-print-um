@@ -36,7 +36,7 @@ streamlit run main.py
 
 <br>
 
-## Set up streamlit secrets:
+## 🗝️ Set up streamlit secrets:
 ```bash
 URI = "your_supabase_url"
 KEY = "your_supabase_key"
@@ -57,7 +57,9 @@ doc-print-um/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    └── secrets.toml  <br>
 
 
-<br>
+<br> 
+<br> <br>
 Application Visual : 
+<br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
