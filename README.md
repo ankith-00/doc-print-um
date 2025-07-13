@@ -1,7 +1,7 @@
 # doc-print-um
 
-📄 doc-print file upload module
-This module enables customers to upload PDF files to a specific store for printing or processing. It’s designed to streamline document submission and ensure files are routed correctly based on store selection.
+📄 doc-print file upload module <br>
+This module enables customers to upload PDF files to a specific store for printing or processing. It’s designed to streamline document submission and ensure files are routed correctly based on store selection. <br>
 view app : https://doc-print.streamlit.app
 
 <br>
@@ -33,6 +33,11 @@ doc-print-um/
 ├── requirements.txt
 └── .streamlit/
     └── secrets.toml
+
+
+* [file_in_root.ext](./file_in_root.ext)
+* [README.md](./README.md)
+* [dir3](./dir3)...
 
 <br>
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
