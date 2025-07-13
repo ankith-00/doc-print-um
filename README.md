@@ -22,8 +22,20 @@
 | Python      | Backend logic          |
 | CSS         | Custom styling         |
 
-
 <br>
+
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/ankith-00/doc-print-um.git
+cd doc-print-um
+pip install -r requirements.txt
+streamlit run main.py
+
+
+
+
 
 ## 📁 File Structure 
 doc-print-um/ <br>
@@ -35,7 +47,7 @@ doc-print-um/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    └── secrets.toml  <br>
 
 
-
 <br>
+Application Visual : 
 <img src="https://i.ibb.co/1YG3gfxX/Screenshot-20250712-104827-Chrome.jpg" width="350">
 <br>
